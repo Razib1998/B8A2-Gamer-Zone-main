@@ -22,9 +22,21 @@ font-family: 'Work Sans', sans-serif;
 .fa-brands{
     font-size: 30px;
 }
+.special-effect{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 95px;
+font-weight: 800;
+padding: 1px
+
+;
+
+
+}
 /*nav style*/
 .nav-bar{
-    width: 1900px;
     min-height: 130px;
     display: flex;
     justify-content: space-around;
@@ -61,7 +73,194 @@ font-family: 'Work Sans', sans-serif;
     font-size: 45px;
    font-weight: 700;
    color: deeppink;
-   
-   
+}
+/*Banner Section*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    text-align: center;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    }
+.main-title{
+    font-size: 45px;
+    font-weight: 700; 
+    margin-right: 50px;
+  }
+
+.banner-content{
+    width: 50%;
+}
+    
+  
+
+.banner-img{
+    width: 50%;
+    margin-right: 60px;
+    
+}
+.icon-1{
+  color: gray;  
+  
+}
+.with-icon-description{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+padding: 20px 40px 20px 40px;
+
+}
+.with-icon-description-1{
+    padding-right: 140px;
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+padding-top: 20px;
+padding-bottom: 20px;
+
+
+}
+.with-icon-description-2{
+padding-right: 200px;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+
+
+}
+.btn-1{
+   width: 120px;
+   height: 50px; 
+   background-color: deeppink;
+   border-radius: 40px;
+   border: none;
+   color: white;
+   text-align: center;
+   margin-top: 40px;
+   margin-right: 80px;
+}
+.btn-2{
+    width: 150px;
+    height: 50px;
+    background: #4EC5F7;
+    border-radius: 40px;
+    margin-top: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+/*Banner section 2 "*/
+.banner-middle{
+    width: 100%;
+    min-height: 700px;
+    background-color:rgb(253, 247, 248) ;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+.banner-middle-img{
+    width: 50%;
+    min-height: 700px;
+}
+.middle-banner-content{
+width: 50%;
+margin-right: 70px;
+}
+
+
+.special-color-title{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-size: 48px;
+font-weight: 700;
+margin-right: 90px;
+
+}
+.banner-description{
+color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+margin-right: 50px;
+padding-top: 20px;
+padding-right: 40px;
+line-height:30px;
+}
+
+.banner-btn{
+ height: 50px;
+ width: 200px;
+ background-color: deeppink;
+ border-radius: 40px;
+ border: none;
+ color: white;
+ font-weight: 600;
+ font-size: 20px;
+ text-align: center;
+ margin-left: 645px;
+ margin-top: 32px;
+
+ }
+ .extra-info{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 80px;
+    padding-top: 45px ;
+    
+ }
+ .extra-info-2{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 70px;
+
+ }
+
+
+
+
+
+
+/*For Mobile device*/ 
+@media screen and (max-width: 572px) {
+    .nav-bar,
+    .menu-section{
+        flex-direction: column;
+    }
+    .nav-bar{
+        padding-top: 30px;
+    }
+    .menu-section{
+        padding-top: 30px;
+        gap: 40px;
+    }
        
+      }
+      
+   
+
+ 
+
+
+
+
+
+
+
+
+
+/*For Tab*/
+@media screen and (max-width: 960px) and (min-width: 573px)  {
+    
 }
