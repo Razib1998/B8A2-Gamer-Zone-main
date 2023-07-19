@@ -21,7 +21,10 @@ font-family: 'Work Sans', sans-serif;
 }
 .fa-brands{
     font-size: 30px;
+    color: white;
+    
 }
+
 .special-effect{
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
@@ -164,11 +167,11 @@ font-weight: 500;
     
 }
 .banner-middle-img{
-    width: 50%;
+   width: 50%;
     min-height: 700px;
 }
 .middle-banner-content{
-width: 50%;
+    width: 50%;
 margin-right: 70px;
 }
 
@@ -230,7 +233,7 @@ line-height:30px;
  .funny-vedios-sectio{
     width: 70%;
     min-height: 300px;
-    margin-left: 450px;
+    margin-left: 200px;
     }
  
  
@@ -238,6 +241,10 @@ line-height:30px;
     display: flex;
     gap: 20px;
     align-items: center;
+    position: relative;
+   
+    
+    
    
  }
  .img-details{
@@ -246,6 +253,24 @@ font-size: 20px;
 font-weight: 500;
 margin-top: 24px;
 
+ }
+ 
+ .btn-with-text{
+    position: relative;
+    display: block;
+   
+ }
+ .play-button{
+  position: absolute;
+  bottom: 50%;
+  right: 25%;
+  
+  
+  
+ 
+  
+  
+  
  }
  .vedios-title{
     color: #0B0223;
@@ -269,7 +294,7 @@ margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 200px;
     margin-top: 130px;
  }
  .feature-content{
@@ -304,7 +329,101 @@ margin-top: 20px;
     left: -120px;
     bottom: -100px;
  }
+ .icon-section{
+    margin-top: 250px;
+    margin-left: 150px;
+    width: 70%;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    
+    
+ }
+ .icon-section .icon-for-Game-selection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+    
+ }
+ .icon-for-Game-selection{
+  width: 320px;
+  height: 100px;
+  background-color: #f2e6e62d;
+  border-radius: 50px;
 
+ }
+ .icon-for-Game-selection:hover{
+    border:1px solid gray ;
+ }
+ .footer-section{
+    border: 2px solid green;
+    width: 100%;
+    min-height: 500px;
+    background-color: #0B0223;
+ }
+ .footer-title-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 120px;
+    color: white;
+    
+ }
+ .footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 65px;
+    padding-right: 100px;
+
+ }
+ .footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 65px;
+    padding-right: 100px;
+ }
+ .footer-policy-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 65px;
+    padding-right: 100px;
+ }
+ .footer-info{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+   font-weight: 500;
+
+ }
+ .footer-menu-bar{
+color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+ }
+ .copy-right-info{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+margin-top: 65px;
+padding-right: 100px;
+
+ }
+
+    
+
+  
+ 
+   
 
 
 
