@@ -226,6 +226,84 @@ line-height:30px;
     margin-right: 70px;
 
  }
+ /*vedios section*/
+ .funny-vedios-sectio{
+    width: 70%;
+    min-height: 300px;
+    margin-left: 450px;
+    }
+ 
+ 
+ .vedios-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+ }
+ .img-details{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+margin-top: 24px;
+
+ }
+ .vedios-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+   
+ }
+ .vedios-description{
+color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-top: 50px;
+margin-bottom: 50px;
+
+ }
+ .special-feature-section{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 130px;
+ }
+ .feature-content{
+    width: 40%;
+    
+ }
+ .feature-title{
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+
+ }
+ .feature-description{
+color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+
+ }
+ .special-feature-color{
+    color: #F948B2;
+ }
+ .feature-img{
+    margin-right: 90px;
+    position: relative;
+ }
+ .extra-img{
+    position: absolute;
+    left: -120px;
+    bottom: -100px;
+ }
 
 
 
